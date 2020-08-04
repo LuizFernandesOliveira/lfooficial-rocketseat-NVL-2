@@ -12,7 +12,7 @@ import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg'
 function Landing(){
     return (
         <div id="page-landing">
-            <div id="page-landing-content">
+            <div id="page-landing-content" className="container">
                 <div className="logo-container">
                     <img src={logoImg} alt="Proffy" />
                     <h2>Sua Plataforma de estudos online</h2>
@@ -27,11 +27,11 @@ function Landing(){
                 <div className="buttons-container">
                     <a href="" className="study">
                         <img src={studyIcon} alt="estudar" />
-                        Esctudar
+                        Estudar
                     </a>
-                    <a href="" className="study">
-                        <img src={giveClassesIcon} alt="estudar" />
-                        Esctudar
+                    <a href="" className="give-classes">
+                        <img src={giveClassesIcon} alt="ensinar" />
+                        Ensinar
                     </a>
                 </div>
                 <span className="total-connections">
